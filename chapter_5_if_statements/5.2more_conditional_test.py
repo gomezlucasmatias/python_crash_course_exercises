@@ -28,3 +28,20 @@ print(number_1 == 7)
     
 print('\n Is number_1 > number_2?')
 print(number_1 > number_2)
+
+print('\n Is number_2 < number_1')
+print(number_2 < number_1)
+
+print('\n Is number_1 >= 7?')
+print(number_1 >= 7)
+
+print('\n Is number2 <= 4?')
+print(number_2 >= 4)
+
+# Tests using the 'and' keyword and the 'or' keyword
+
+print('\n If number_1 > 6 and number_2 < 8 then number_1 is equal to 7')
+print(number_1 > 6 and number_1 < 8)
+
+print('\n If number_2 % 2 == 0 or number_2 % 4 == 0 Then number_2 is an even number')
+print(number_2 % 2 == 0 or number_2 % 4 == 0)
