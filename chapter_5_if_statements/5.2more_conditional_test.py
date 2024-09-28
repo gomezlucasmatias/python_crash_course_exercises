@@ -45,3 +45,20 @@ print(number_1 > 6 and number_1 < 8)
 
 print('\n If number_2 % 2 == 0 or number_2 % 4 == 0 Then number_2 is an even number')
 print(number_2 % 2 == 0 or number_2 % 4 == 0)
+
+#Test Whether an itmen is in a list
+
+list = [number_1, number_2]
+
+if 7 in list:
+    print('\nOne of your favourite numbers is in this list')
+else:
+    print("\n:'/")
+
+#Test Whether an item is not in a list
+
+if 'Mate' is not list:
+    print('\nThis is not a favourite drinks list')
+
+
+
