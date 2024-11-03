@@ -19,4 +19,12 @@ else:
     alien_0['x_position'] = alien_0['x_position'] + increase_x 
 
 print(f'New position: {alien_0["x_position"]}')
+
+print(f'\nNow, I remove one key-value item from dictionary')
+
+print(alien_0)
+
+del alien_0['points']
+
+print(alien_0)
     
