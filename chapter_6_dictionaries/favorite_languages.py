@@ -19,4 +19,6 @@ for name in favorite_lenguages:
     if name in friends:
         lenguage = favorite_lenguages[name].title()
         print(f'\tI see that you really love {lenguage}')
+    if 'erin' not in favorite_lenguages.keys():
+        print(f'\n\nErin, please take our poll!')
 
