@@ -23,5 +23,8 @@ for name in favorite_lenguages:
 for name in sorted(favorite_lenguages.keys()):
     print(f'\n{name.title()}, thank you for taking the poll.')
 
+print('\nThe following language have been mentioned:')
 
+for value in favorite_lenguages.values():
+    print(f'{value.title()}')
 
