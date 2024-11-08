@@ -15,10 +15,13 @@ friends = ['mati', 'mauro']
 
 for name in favorite_lenguages:
     print(f'\nHi {name.title()}')
-    
+     
     if name in friends:
         lenguage = favorite_lenguages[name].title()
         print(f'\tI see that you really love {lenguage}')
-    if 'erin' not in favorite_lenguages.keys():
-        print(f'\n\nErin, please take our poll!')
+
+for name in sorted(favorite_lenguages.keys()):
+    print(f'\n{name.title()}, thank you for taking the poll.')
+
+
 
