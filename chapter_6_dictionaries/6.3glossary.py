@@ -1,3 +1,6 @@
+from typing import List
+
+
 glossary = {
             'variable': 'it is a tag poiting to a memory address',
             'list': 'Store any kind of data',
@@ -11,3 +14,5 @@ print(f'\nList: \n\t{glossary["list"].title()}')
 print(f'\nDictionary: \n\t{glossary["dictionary"].title()}')
 print(f'\nstr: \n\t{glossary["str"].title()}')
 print(f'\nBool: \n\t{glossary["bool"].title()}')
+
+
