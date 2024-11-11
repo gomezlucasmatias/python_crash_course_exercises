@@ -5,4 +5,6 @@ favorite_lenguages = {
                       'papa': 'cobol',
                       'damaris': 'c#'
                       }
+
+some_friends = ['carlas', 'gustavo', 'ivan', 'romi', 'damaris']
  
