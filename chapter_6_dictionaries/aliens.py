@@ -7,3 +7,16 @@ aliens = [alien_0, alien_1, alien_2]
 for alien in aliens:
     print(alien)
 
+print('\n...')
+print('\n')
+
+aliens = []
+
+for alien in range(0, 15):
+    alien = {'color': 'green', 'point': 5, 'speed': 'low'}
+    aliens.append(alien)
+
+for alien in aliens[0:5]:
+    print(alien)
+
+print('\n...')
