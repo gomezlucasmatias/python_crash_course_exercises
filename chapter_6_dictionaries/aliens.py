@@ -16,6 +16,9 @@ for alien in range(0, 15):
     alien = {'color': 'green', 'point': 5, 'speed': 'low'}
     aliens.append(alien)
 
+print(f'There are {len(aliens)} aliens')
+print('\n\n')
+
 for alien in aliens[0:5]:
     print(alien)
 
