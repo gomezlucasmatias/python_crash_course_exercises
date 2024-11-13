@@ -9,4 +9,4 @@ favorite_languages = {
 for key, values in favorite_languages.items():
     print(f'\n{key.title()} really love programing in:\n')
     for value in values:
-        print(f'\t\t\t\t\t\t{value.title()}')
+        print(f'\t\t\t\t{value.title()}')
