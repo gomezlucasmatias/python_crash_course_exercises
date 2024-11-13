@@ -26,5 +26,5 @@ for name in sorted(favorite_lenguages.keys()):
 print('\nThe following language have been mentioned:')
 
 for value in favorite_lenguages.values():
-    print(f'{value.title()}')
+    print(f'\n\t\t\t\t\t\t{value.title()}')
 
