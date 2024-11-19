@@ -7,6 +7,6 @@ darian = {'name': 'darian', 'last_name': 'gomez gerardi', 'age': '17',}
 people = [ame, mati, darian,]
 
 for name in people:
-    print(f"{name}'s date are:")
+    print(f"{name['name']} date are:")
     for value in name.values():
         print(f'\n\t\t{value}')
