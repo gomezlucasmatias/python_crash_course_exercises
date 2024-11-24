@@ -1,10 +1,10 @@
-artemisa = {'kind': 'cat', 'owner': 'ame',}
+artemisa = {'name': 'artemisa', 'kind': 'cat', 'owner': 'ame',}
 
-felipe = {'kind': 'cat', 'owner': 'luz'}
+felipe = {'name': 'felipe', 'kind': 'cat', 'owner': 'luz'}
 
-octabio = {'kind': 'cat', 'owner': 'damaris'}
+octabio = {'name': 'octabio', 'kind': 'cat', 'owner': 'damaris'}
 
-aurelia = {'kind': 'dog', 'owner': 'lili'}
+aurelia = {'name': 'aurelia', 'kind': 'dog', 'owner': 'lili'}
 
 pets = [artemisa, felipe, octabio, aurelia]
 
